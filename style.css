@@ -1,0 +1,165 @@
+/*
+
+  margin: 0 4rem;
+
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  background-color: #e7f5fb;
+}
+/*******************************GENERAL COMPONENTS*****************************/
+
+.grid {
+  display: grid;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid-gap {
+  gap: 6rem;
+}
+.heading-primary {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 400;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.heading-secondary {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  letter-spacing: 1px;
+}
+.margin-btm {
+  margin-bottom: 6rem;
+}
+.padding-tp {
+  padding-top: 4rem;
+}
+/*******************************SECTION HERO*****************************/
+.section-hero {
+  margin-bottom: 8rem;
+}
+.herocontainer {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("img/beach.jpg");
+  background-size: cover;
+}
+.herocontent {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-family: "Kaisei HarunoUmi", serif; */
+  font-family: "Shadows Into Light", cursive;
+  background-color: rgba(97, 92, 92, 0.342);
+}
+.heroheading {
+  color: white;
+  font-size: 20rem;
+  letter-spacing: 2.5rem;
+  color: rgb(0, 0, 0);
+  border-radius: 2rem;
+  background-color: rgba(255, 255, 255, 0.288);
+  margin-bottom: 5rem;
+}
+.herotext {
+  font-size: 5rem;
+  color: white;
+  letter-spacing: 0.5rem;
+  margin-bottom: 4rem;
+}
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  border: none;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 2rem;
+  transition: all 0.2s;
+  background: none;
+  border: 2px solid white;
+  color: white;
+}
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.349);
+  color: white;
+  cursor: pointer;
+}
+
+/******************* SECTION GALLERY **************************/
+.section-gallery {
+  margin: 0 4rem;
+  margin-bottom: 8rem;
+}
+.image-gallery {
+  overflow: hidden;
+  border-radius: 2rem;
+}
+.gallery-images {
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s ease-in-out;
+}
+.gallery-images:hover {
+  transform: scale(1.2);
+}
+.overflowhid {
+  overflow: hidden;
+}
+
+/*******************************SECTION FEATURES*****************************/
+.section-features {
+  font-family: "Urbanist", sans-serif;
+  margin: 0 4rem;
+}
+.feature-icon {
+  margin-bottom: 2rem;
+}
+.icon {
+  height: 6rem;
+  width: 6rem;
+  color: #3bc9db;
+}
+.feature {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 1.5rem 3rem rgb(0 0 0 / 15%);
+  padding: 4rem 2rem;
+  transition: all 0.2s;
+  border-radius: 0.5rem;
+}
+.feature:hover {
+  transform: translateY(-2rem);
+  transform: scale(1.1);
+}
+.feature-text {
+  width: 80%;
+  font-size: 1.8rem;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+.above-section-features {
+  background-color: #fff;
+  /* background-color: #f3fafd; */
+  padding-bottom: 8rem;
+}
