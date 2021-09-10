@@ -83,6 +83,10 @@ html {
 .border-btm {
   border-bottom: 1.5px solid rgba(0, 0, 0, 0.733);
 }
+.grid-centered {
+  align-items: center;
+  justify-content: center;
+}
 /*******************************SECTION HERO*****************************/
 .section-hero {
   margin-bottom: 8rem;
@@ -221,7 +225,7 @@ html {
 .price-card {
   background-color: #fff;
   overflow: hidden;
-  width: 70%;
+  width: 75%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -254,4 +258,40 @@ html {
   background-color: rgba(255, 255, 255, 0.4);
   padding: 0.2rem 0.5rem;
   border-radius: 0 0 1rem 1rem;
+}
+
+/*******************************SECTION TESTIMONIAL*****************************/
+.above-section-testimonial {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(img/beachhouse.jpg);
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+  padding-bottom: 8rem;
+}
+.section-testimonials {
+  font-family: "Urbanist", sans-serif;
+}
+.customer-image {
+  width: 25%;
+  border-radius: 50%;
+}
+.quotetext {
+  margin-bottom: 3rem;
+  letter-spacing: 1px;
+}
+.testimonial-box {
+  width: 75%;
+  justify-self: center;
+  color: white;
+  font-size: 1.7rem;
+  padding: 2rem;
+}
+.testimonial-heading {
+  border-bottom: 3px solid #ccc;
+}
+.testimonial {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
