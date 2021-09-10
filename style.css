@@ -21,6 +21,9 @@ html {
   /* align-items: center; */
   /* justify-content: center; */
 }
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
@@ -44,7 +47,41 @@ html {
   margin-bottom: 6rem;
 }
 .padding-tp {
-  padding-top: 4rem;
+  padding-top: 8rem;
+}
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  border: none;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 2rem;
+  transition: all 0.2s;
+  background: none;
+  border: 2px solid white;
+  color: white;
+}
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.349);
+  color: white;
+  cursor: pointer;
+}
+.pricing-btn {
+  font-family: "Urbanist", sans-serif;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  letter-spacing: 1.2px;
+  background-color: #fff;
+  border: 2px solid rgba(0, 0, 0, 0.267);
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+.pricing-btn:hover {
+  background-color: #f1f3f5;
+}
+.border-btm {
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.733);
 }
 /*******************************SECTION HERO*****************************/
 .section-hero {
@@ -83,22 +120,6 @@ html {
   color: white;
   letter-spacing: 0.5rem;
   margin-bottom: 4rem;
-}
-.btn {
-  font-family: "Roboto", sans-serif;
-  font-size: 2rem;
-  border: none;
-  padding: 1rem 2rem 1rem 2rem;
-  border-radius: 2rem;
-  transition: all 0.2s;
-  background: none;
-  border: 2px solid white;
-  color: white;
-}
-.btn:hover {
-  background-color: rgba(0, 0, 0, 0.349);
-  color: white;
-  cursor: pointer;
 }
 
 /******************* SECTION GALLERY **************************/
@@ -144,7 +165,7 @@ html {
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 1.5rem 3rem rgb(0 0 0 / 15%);
   padding: 4rem 2rem;
-  transition: all 0.2s;
+  transition: all 0.5s ease;
   border-radius: 0.5rem;
 }
 .feature:hover {
@@ -165,6 +186,13 @@ html {
 }
 
 /*******************************SECTION TRUST*****************************/
+.heading-trust {
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 3rem;
+  color: rgba(0, 0, 0, 0.733);
+}
 .trust-icon {
   width: 15rem;
 }
@@ -175,6 +203,44 @@ html {
 }
 .above-section-trusts {
   /* background-color: #f1f3f5; */
-  padding-top: 4rem;
+  background-color: #fff;
+  padding-top: 2rem;
   padding-bottom: 4rem;
+}
+
+/*******************************SECTION PRICING*****************************/
+.above-section-pricing {
+  /* background-color: #fff; */
+  padding-bottom: 12rem;
+  padding-top: 8rem;
+}
+.section-pricing {
+  font-family: "Urbanist", sans-serif;
+  margin: 0 4rem;
+}
+.price-card {
+  background-color: #fff;
+  overflow: hidden;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 15%);
+  border-radius: 2rem;
+  justify-self: center;
+  transition: all 0.5s ease;
+}
+.price-card:hover {
+  transform: translateY(-2rem);
+  transform: scale(1.05);
+}
+.price-text {
+  font-size: 1.8rem;
+  border-bottom: 1px solid #eee;
+  padding: 1rem;
+  letter-spacing: 1.2px;
+}
+.pricing-image {
+  width: 100%;
 }
