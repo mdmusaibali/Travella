@@ -163,9 +163,35 @@
         rgba(255, 255, 255, 0.9)
       ),
       url(img/testimonial-background.jpg);
-    width: 80%;
+    width: 90%;
+    padding: 8rem;
+    border: 2px solid #ccc;
   }
   .booking-form {
     width: 100%;
+  }
+  input,
+  select {
+    padding: 3rem;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
+    color: rgb(112, 111, 111);
+  }
+  .booking-form {
+    gap: 8rem;
+    margin-bottom: 8rem;
+  }
+  .margin-btm {
+    margin-bottom: 10rem;
+  }
+  .heading-booking {
+    font-size: 8rem;
+  }
+  .booking-btn {
+    font-size: 3.5rem;
+    padding: 3rem;
+    border-radius: 2rem;
   }
 }
