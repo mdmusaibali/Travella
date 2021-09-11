@@ -5,15 +5,91 @@
   .feature {
     width: 100%;
   }
+  .testimonial-box {
+    width: 100%;
+  }
   .section-features {
     margin: 0 2rem;
   }
 }
 @media (max-width: 860px) {
+  html {
+    font-size: 45%;
+  }
   .grid--4-cols {
     grid-template-columns: repeat(2, 1fr);
   }
   .section-features {
     margin: 0 4rem;
+  }
+  .testimonial-box {
+    width: 100%;
+  }
+  .hiding {
+    display: none;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 634px) {
+  html {
+    font-size: 35%;
+  }
+  .grid--3-cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .price-card {
+    width: 60%;
+  }
+  .price-text {
+    font-size: 3rem;
+  }
+  .tour-name {
+    font-size: 4rem;
+  }
+  .section-pricing {
+    gap: 8rem;
+  }
+  .price-card {
+    gap: 4rem;
+  }
+  .pricing-btn {
+    font-size: 3rem;
+  }
+  .testimonial-box {
+    width: 85%;
+  }
+  .customer-image {
+    width: 12%;
+  }
+  .testimonial {
+    padding-left: 6rem;
+  }
+  .section-testimonials {
+    gap: 10rem;
+  }
+  .testimonial-heading {
+    font-size: 6rem;
+  }
+  .testimonial-box {
+    font-size: 2.5rem;
+  }
+  .booking-box {
+    width: 100%;
+  }
+}
+@media (max-width: 546px) {
+  html {
+    font-size: 30%;
+  }
+}
+@media (max-width: 435px) {
+  html {
+    font-size: 25%;
   }
 }

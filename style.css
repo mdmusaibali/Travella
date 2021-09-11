@@ -240,7 +240,7 @@ html {
 .price-card {
   background-color: #fff;
   overflow: hidden;
-  width: 75%;
+  width: 85%;
   display: flex;
   flex-direction: column;
   align-items: center;
