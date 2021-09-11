@@ -196,7 +196,7 @@
   }
   .footer-info {
     flex-direction: column;
-    gap: 10rem;
+    gap: 15rem;
     justify-content: center;
     align-items: center;
   }
