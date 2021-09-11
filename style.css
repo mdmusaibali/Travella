@@ -343,7 +343,7 @@ blockquote cite:before {
 /*******************************SECTION BOOKING*****************************/
 .above-section-booking {
   background-color: #fff;
-  padding: 8rem;
+  padding: 10rem 0;
 }
 .booking-box {
   box-shadow: 0 1.5rem 3rem rgb(0 0 0 / 15%);
@@ -351,8 +351,8 @@ blockquote cite:before {
   width: 80%;
   background-image: linear-gradient(
       105deg,
-      rgba(255, 255, 255, 0.9) 0%,
-      rgba(255, 255, 255, 0.9) 50%,
+      rgba(255, 255, 255, 0.8) 0%,
+      rgba(255, 255, 255, 0.8) 50%,
       transparent 50%
     ),
     url(img/testimonial-background.jpg);
@@ -360,6 +360,7 @@ blockquote cite:before {
   background-size: cover;
   padding: 3rem;
   justify-self: center;
+  align-self: center;
 }
 .section-booking {
   margin: 0 4rem;
@@ -394,5 +395,53 @@ select {
 .booking-btn:hover {
   background-color: #ddd;
 }
-.heading-booking {
+
+/*******************************SECTION BOOKING*****************************/
+
+.bottom-logo {
+  width: 10rem;
+}
+.footer {
+  font-family: "Urbanist", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 10rem;
+  background-color: #333;
+  color: white;
+  padding-bottom: 2rem;
+}
+.footer-info ul {
+  list-style: none;
+}
+.footer-info {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 20%;
+}
+.footer-info-lists {
+  display: flex;
+  gap: 4rem;
+  font-weight: 500;
+  border-top: 2px solid gray;
+  padding-top: 2rem;
+}
+.footer-info-lists li a:hover {
+  color: #ccc;
+  cursor: pointer;
+}
+.footer-info-lists li a {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.about {
+  width: 30%;
+  border-top: 2px solid gray;
+  padding-top: 2rem;
+  letter-spacing: 1px;
+  line-height: 1.8;
 }
