@@ -1,0 +1,19 @@
+@media (max-width: 1024px) {
+  html {
+    font-size: 55%;
+  }
+  .feature {
+    width: 100%;
+  }
+  .section-features {
+    margin: 0 2rem;
+  }
+}
+@media (max-width: 860px) {
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .section-features {
+    margin: 0 4rem;
+  }
+}

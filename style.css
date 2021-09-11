@@ -412,6 +412,8 @@ select {
   background-color: #333;
   color: white;
   padding-bottom: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 .footer-info ul {
   list-style: none;
