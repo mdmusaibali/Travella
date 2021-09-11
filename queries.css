@@ -146,6 +146,8 @@
   }
   .pricing-btn {
     font-size: 4rem;
+    margin-bottom: 6rem;
+    padding: 2rem 3rem;
   }
   .testimonial-heading {
     font-size: 8rem;
