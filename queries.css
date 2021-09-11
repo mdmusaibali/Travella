@@ -101,23 +101,69 @@
     align-self: center;
   }
   .icon {
-    height: 10rem;
-    width: 10rem;
+    height: 14rem;
+    width: 14rem;
   }
   .heading-secondary {
-    font-size: 4rem;
+    font-size: 6rem;
   }
   .feature-text {
-    font-size: 2.5rem;
+    font-size: 4rem;
+    padding: 5rem 0;
   }
   .grid-gap {
     gap: 15rem;
   }
   .heading-trust {
-    font-size: 4rem;
+    font-size: 5rem;
     margin-bottom: 8rem;
   }
   .heading-primary {
-    font-size: 7rem;
+    font-size: 8rem;
+    margin-bottom: 12rem;
+  }
+  .btn {
+    font-size: 4rem;
+    padding: 2.5rem;
+    border-radius: 3rem;
+  }
+  .herotext {
+    text-align: center;
+    font-size: 6rem;
+    margin-bottom: 15rem;
+  }
+  .trust-icon {
+    width: 18rem;
+  }
+  .price-card {
+    width: 75%;
+  }
+  .tour-name {
+    font-size: 6rem;
+  }
+  .price-text {
+    font-size: 4rem;
+  }
+  .pricing-btn {
+    font-size: 4rem;
+  }
+  .testimonial-heading {
+    font-size: 8rem;
+  }
+  .testimonial-box {
+    font-size: 3.5rem;
+    justify-self: center;
+    align-self: center;
+  }
+  .booking-box {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.9),
+        rgba(255, 255, 255, 0.9)
+      ),
+      url(img/testimonial-background.jpg);
+    width: 80%;
+  }
+  .booking-form {
+    width: 100%;
   }
 }
