@@ -92,4 +92,12 @@
   html {
     font-size: 25%;
   }
+  .gridtoone {
+    grid-template-columns: 1fr;
+  }
+  .feature {
+    width: 70%;
+    justify-self: center;
+    align-self: center;
+  }
 }
