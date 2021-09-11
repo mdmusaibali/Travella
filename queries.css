@@ -194,4 +194,19 @@
     padding: 3rem;
     border-radius: 2rem;
   }
+  .footer-info {
+    flex-direction: column;
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .bottom-logo {
+    width: 18rem;
+  }
+  .about {
+    width: inherit;
+  }
+  .footer {
+    font-size: 3rem;
+  }
 }
