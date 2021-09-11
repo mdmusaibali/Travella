@@ -100,4 +100,21 @@
     justify-self: center;
     align-self: center;
   }
+  .icon {
+    height: 10rem;
+    width: 10rem;
+  }
+  .heading-secondary {
+    font-size: 4rem;
+  }
+  .feature-text {
+    font-size: 2.5rem;
+  }
+  .grid-gap {
+    gap: 15rem;
+  }
+  .heading-trust {
+    font-size: 4rem;
+    margin-bottom: 8rem;
+  }
 }
