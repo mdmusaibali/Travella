@@ -92,6 +92,15 @@
   html {
     font-size: 22%;
   }
+  .section-hero {
+    margin-bottom: 18rem;
+  }
+  .above-section-features {
+    padding-top: 12rem;
+  }
+  .above-section-pricing {
+    padding-top: 18rem;
+  }
   .gridtoone {
     grid-template-columns: 1fr;
   }
@@ -119,7 +128,7 @@
     margin-bottom: 8rem;
   }
   .heading-primary {
-    font-size: 8rem;
+    font-size: 10rem;
     margin-bottom: 12rem;
   }
   .btn {
@@ -137,6 +146,9 @@
   }
   .price-card {
     width: 75%;
+  }
+  .price-card:not(:last-child) {
+    margin-bottom: 8rem;
   }
   .tour-name {
     font-size: 6rem;
@@ -184,7 +196,7 @@
     margin-bottom: 8rem;
   }
   .margin-btm {
-    margin-bottom: 10rem;
+    margin-bottom: 18rem;
   }
   .heading-booking {
     font-size: 8rem;
